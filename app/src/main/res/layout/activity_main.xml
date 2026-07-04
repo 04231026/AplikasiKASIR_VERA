@@ -1,0 +1,78 @@
+<!-- HEADER: Kombinasi Horizontal untuk Nama Toko & Profil -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#059669"
+    android:padding="20dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="POS KASIR VERA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: Vera_04231026"
+        android:textColor="#E6F4EA"
+        android:textSize="12sp"/>
+</LinearLayout>
+
+<!-- STATUS PENJUALAN HARI INI -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Penjualan Hari Ini"
+        android:textColor="#64748B"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 2.450.000"
+        android:textColor="#0F172A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>
+
+<!-- MENU UTAMA KASIR -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="16dp"
+    android:weightSum="2">
+
+    <!-- Tombol Menu 1 -->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginRight="8dp"
+        android:text="Transaksi Baru"
+        android:backgroundTint="#0284C7"/>
+
+    <!-- Tombol Menu 2 -->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:text="Stok Barang"
+        android:backgroundTint="#0284C7"/>
+</LinearLayout>
