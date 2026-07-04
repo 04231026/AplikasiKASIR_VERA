@@ -1,0 +1,49 @@
+<!-- Judul Aplikasi -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="KASIR VERA APP"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:textColor="#0F172A"
+    android:layout_marginBottom="8dp"/>
+
+<!-- Sub-Judul -->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Silakan masuk untuk memulai transaksi"
+    android:textSize="14sp"
+    android:textColor="#64748B"
+    android:layout_marginBottom="32dp"/>
+
+<!-- Input Username -->
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Username / Email"
+    android:inputType="textEmailAddress"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="#FFFFFF"/>
+
+<!-- Input Password -->
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="16dp"
+    android:layout_marginBottom="24dp"
+    android:background="#FFFFFF"/>
+
+<!-- Tombol Login -->
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MASUK KE SISTEM"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:backgroundTint="#059669"
+    android:padding="14dp"/>
